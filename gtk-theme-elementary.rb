@@ -9,10 +9,7 @@ class GtkThemeElementary < Formula
   depends_on 'gtk+'
 
   def install
+    system 'false'
     (share/'themes').install 'elementary'
-  end
-
-  def test
-    system 'ls'
   end
 end
