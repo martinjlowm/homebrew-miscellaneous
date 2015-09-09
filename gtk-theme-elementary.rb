@@ -1,6 +1,6 @@
 version = '4.0.6'
 
-class GTKThemeElementary < Formula
+class GtkThemeElementary < Formula
   desc "Elementary GTK+ 2.0/3.0 theme"
   homepage "https://launchpad.net/egtk"
   url "https://launchpad.net/egtk/4.x/#{version}/+download/elementary.tar.xz"
