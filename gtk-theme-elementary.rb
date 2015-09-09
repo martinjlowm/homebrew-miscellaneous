@@ -11,4 +11,8 @@ class GtkThemeElementary < Formula
   def install
     (share/'themes').install 'elementary'
   end
+
+  def test
+    system 'ls'
+  end
 end
