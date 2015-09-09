@@ -1,4 +1,4 @@
-version = 4.0.6
+version = '4.0.6'
 
 class GTKThemeElementary < Formula
   desc "Elementary GTK+ 2.0/3.0 theme"
