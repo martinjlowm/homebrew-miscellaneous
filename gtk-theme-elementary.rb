@@ -9,6 +9,6 @@ class GtkThemeElementary < Formula
   depends_on 'gtk+'
 
   def install
-    (share/'themes/elementary').install '.'
+    (share/'themes').install Dir['*'] => 'elementary'
   end
 end
